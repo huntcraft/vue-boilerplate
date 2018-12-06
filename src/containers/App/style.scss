@@ -1,0 +1,27 @@
+html{
+  font-family: Arial, "Microsoft YaHei";
+  font-size: 16px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input:focus, button:focus{
+  outline: none;
+}
+a{
+  text-decoration: none;
+}
+.wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+}
+.sr{
+  color: #ccc;
+  display: flex;
+  & > div{
+    font-size: 12px;
+    flex-direction: column;
+  }
+}

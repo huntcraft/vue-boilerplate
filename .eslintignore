@@ -1,0 +1,5 @@
+ignore by default
+build/*
+config/*
+lib/*
+*.config.js

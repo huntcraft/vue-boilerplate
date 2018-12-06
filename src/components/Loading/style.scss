@@ -1,0 +1,24 @@
+.wrapper{
+  height: 100%;
+  padding-top: 120px;
+  & > div{
+    width: 24px;
+    height: 24px;
+    border: 2px solid #bbdefb;
+    border-top: 2px solid #2196f3;
+    border-radius: 100%;
+    margin: 0 auto;
+    animation-duration: 1s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+@keyframes changewidth {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
